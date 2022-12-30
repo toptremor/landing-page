@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/* Header and hero*/
+
 header {
     background-color: #1f2937;
     color: white;
@@ -67,16 +69,21 @@ a {
 
 .hero-img {
     border-radius: 50px;
+    min-width: 0;
 }
+
+/* Information */
 
 .information {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 60px;
 }
 
 .info {
     max-width: 200px;
+    min-width: 0;
 }
 
 .info img {
@@ -99,8 +106,75 @@ a {
     text-align: center;
 }
 
+/* Quote */
+
 .quote {
     background-color: #e5e7eb;
-    padding: 48px;
+    padding: 75px 25px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    flex: 1;
+}
+
+.quote-text {
+    font-style: italic;
+    width: 60%;
+}
+
+.quote-sig {
+    align-self: flex-end;
+    font-size: 26px;
+}
+
+/* Call To Action */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container {
+    height: 150px;
+    width: 950px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cta-inside {
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.cta-btn {
+    align-self: center;
+}
+
+.cta-btn-signup {
+    padding: 8px 24px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #3882f6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
 }
